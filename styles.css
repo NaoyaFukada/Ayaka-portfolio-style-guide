@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Amsterdam Four ttf";
+    src: url(amsterdam-four-ttf.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    height: 100%;
+    width: 85%;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+    margin: 30px 0 !important;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-img-top {
+    height: 180px;
+    background-color: black;
+}
+
+.primary {
+    background-color: #815B43;
+}
+
+.secondary {
+    background-color: #4F3829;
+}
+
+.tertiary {
+    background-color: #CFB8A9;
+}
+
+.black {
+    background-color: #2B2724;
+}
+
+.black-2 {
+    background-color: #5B5450;
+}
+
+.black-3 {
+    background-color: #8A8079;
+}
+
+.black-4 {
+    background-color: #BBAFA7;
+}
+
+.black-5 {
+    background-color: #F2E4DB;
+}
+
+.black-6 {
+    background-color: #FFF5EF;
+}
+
+.fonts {
+    font-size: 24px;
+}
+
+.amsterdam-four {
+    font-family: "Amsterdam Four ttf";
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.old-standard-tt {
+    font-family: 'Old Standard TT', serif;
+}
+
+.h1 {
+    border-bottom: 2px solid black;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 15px 5px 35px 5px;
+    margin-bottom: 30px;
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 5px 30px 5px;
+    margin: 0 !important;
+    margin-bottom: 15px !important;
+}
+
+.p {
+    border-bottom: 2px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
